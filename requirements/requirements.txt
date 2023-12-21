@@ -1,4 +1,5 @@
-huggingface_hub
+huggingface-hub
+
 numba
 numpy>=1.22,<1.24
 onnx>=1.7.0
@@ -6,10 +7,15 @@ python-dateutil
 ruamel.yaml
 scikit-learn
 setuptools>=65.5.1
+
+# logging
+wandb
 tensorboard
+
 text-unidecode
-torch
+
 tqdm>=4.41.0
 triton
+
 wget
 wrapt
